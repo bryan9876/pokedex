@@ -1,0 +1,110 @@
+*{
+  padding: 0;
+  margin: 0;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.cont-header {
+  background-color: rgb(194, 28, 28);
+  padding: 30px;
+  text-align: center;
+  border: 1px solid #ccc;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.heder-line{
+  margin-top: 15px;
+  width: 100%;
+  background-color: #9fac2f;
+}
+
+.cont-filter {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  border: 1px solid #ccc;
+  padding: 6px 12px;
+  border-radius: 10px;
+  background-color: #fff;
+  max-width: 350px;
+  margin: 30px auto;
+}
+
+.input-group-text {
+  background-color: transparent;
+  border: none;
+  padding: 0;
+  margin: 0;
+  font-size: 20px;
+  color: #666;
+}
+
+.filter-input {
+  border: none;
+  outline: none;
+  font-size: 16px;
+  width: 100%;
+  padding: 6px 8px;
+  background-color: transparent;
+}
+
+.cont-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+
+.card {
+  background-color: #fff;
+  border-radius: 12px;
+  padding: 16px;
+  text-align: center;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.poke-img {
+  width: 120px;
+  height: 120px;
+  object-fit: contain;
+  margin-bottom: 10px;
+}
+
+.stats {
+  margin-top: 10px;
+  text-align: left;
+}
+
+.bar {
+  background-color: #eee;
+  border-radius: 6px;
+  overflow: hidden;
+  height: 14px;
+  margin-bottom: 6px;
+}
+
+.progress {
+  background-color: #9b1a1a;
+  height: 100%;
+  color: white;
+  font-size: 12px;
+  padding-left: 5px;
+}
+
+.cont-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem 0;
+}
+
+.btn-load {
+  background-color: #9b1a1a;
+  color: white;
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 12px;
+}
+
